@@ -518,7 +518,7 @@ end)
 
 local Tab7 = Window:Tab("Credits",false)
 
-Tab7:Label("Rust🔨")
+Tab7:Label("Ex🔨")
 
 local Aiming = loadstring(game:HttpGet("https://pastebin.com/raw/vsVecTqs"))()
 Aiming.TeamCheck(false)
