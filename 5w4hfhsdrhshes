@@ -1,12 +1,12 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
 
 
-local Window = Library:Create("KorWare","Da hood")
+local Window = Library:Create("XWare","Da hood")
 local Tab1 = Window:Tab("Aimlocks",true)
 
 Tab1:Label("Aimlock")
 
-Tab1:Button("Rust Aimlock",function(bool)
+Tab1:Button("Ex Aimlock",function(bool)
     getgenv().AimPart = "HumanoidRootPart"
 	getgenv().AimlockKey = "q"
 	getgenv().AimRadius = 30
